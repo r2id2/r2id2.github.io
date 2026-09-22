@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #C1848F;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #C1848F;
   background-color: white;
 }
 /* main body */
@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #C1848F;
 }
 
 /* main blockqoute */
@@ -602,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #C1848F;
     height: 56px;
     line-height: 56px;
   }
@@ -696,20 +696,20 @@ small {
   /* Activity 3 - Soft Pink Theme */
 
   .teal {
-    background-color: #F7ECEF !important;
+    background-color: #C1848F !important;
   }
 
   .teal-text {
-    color: #B76E79 !important;
+    color: #965F69 !important;
   }
 
   .blue-grey {
-    background-color: #B76E79 !important;
+    background-color: #C1848F !important;
   }
 
   /* Pink accent when hovering over links */
   .hoverline:hover {
-    border-bottom-color: #B76E79 !important;
+    border-bottom-color: #965F69 !important;
   }
 
   #intro h2, #intro h5 {
@@ -717,5 +717,5 @@ small {
   }
 
   #intro .typing {
-      color: #9E6570 !important;
+      color: #965F69 !important;
   }
