@@ -691,4 +691,44 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+      /* Activity 3 - Light Pink Theme */
+
+    .teal {
+      background-color: #E8A0BF !important;
+    }
+
+    .teal-text {
+      color: #A64D79 !important;
+    }
+
+    .teal-text.text-darken-2 {
+      color: #8E3F68 !important;
+    }
+
+    .blue-grey {
+      background-color: #E8A0BF !important;
+    }
+
+    .brown-text {
+      color: #A64D79 !important;
+    }
+
+    /* Links */
+    a {
+      color: #A64D79;
+    }
+
+    /* Buttons */
+    .btn,
+    .btn-large,
+    .btn-floating {
+      background-color: #E8A0BF;
+    }
+
+    /* Button hover */
+    .btn:hover,
+    .btn-large:hover,
+    .btn-floating:hover {
+      background-color: #D77FA6;
+    }
 }
