@@ -714,3 +714,15 @@ small {
   #intro .typing {
       color: #965F69 !important;
   }
+
+  .project-link {
+    display: inline-block;
+    background-color: #C1848F;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  .project-link:hover {
+    background-color: #965F69;
+  }

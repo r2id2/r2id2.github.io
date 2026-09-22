@@ -813,10 +813,10 @@ DMA-based communication within a large-scale SoC design</li>
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="${project.name}" src="${project.image}" style="height: 100%; width: 100%" class="activator" />
+                <img alt="${project.name}" src="${project.image}" style="height: 100%; width: 100%" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">${project.name}<i class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">${project.name}</i></span>
                 <p>${project.description}</p>
               </div>
               <div class="card-action">
@@ -829,18 +829,18 @@ DMA-based communication within a large-scale SoC design</li>
         // add project to webpage
         projectContainer.insertAdjacentHTML("beforeend", projectCard);  
       }
-      // Two more projects have now been displayed
+      // wo more projects have now been displayed
       projectsShown += 2;
 
-      // Hide Load More when all projects are displayed
+      // hide Load More when all projects are displayed
       if (projectsShown >= projects.length) {
       document.getElementById("load-more").style.display = "none";
       }
     }
-    // Initially display the first two projects
+    // initially display the first two projects
     display();
 
-    // When Load More is clicked, display the next two
+    // when Load More is clicked, display the next two
     document
       .getElementById("load-more")
       .addEventListener("click", display);
