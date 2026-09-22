@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #C1848F;
   border-radius: 50% !important;
 }
 
@@ -85,8 +85,8 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #C1848F;
-  border: 2px solid #fff;
+  color: #965F69;
+  border: 2px solid #C1848F;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -103,9 +103,9 @@
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: none;
+  background: #C1848F;
   color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #C1848F;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -549,7 +549,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #965F69 !important;
 }
 
 /* .teal-text {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #C1848F !important;
 }
 
 /* .teal {
@@ -694,15 +694,6 @@ small {
     background-position-x: 30%;
   }
   /* Activity 3 - Soft Pink Theme */
-
-  .teal {
-    background-color: #C1848F !important;
-  }
-
-  .teal-text {
-    color: #965F69 !important;
-  }
-
   .blue-grey {
     background-color: #C1848F !important;
   }
@@ -713,7 +704,7 @@ small {
   }
 
   #intro h2, #intro h5 {
-      color: #333333 !important;
+      color: #242323 !important;
   }
 
   #intro .typing {
