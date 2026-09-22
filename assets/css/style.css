@@ -715,6 +715,10 @@ small {
       color: #965F69 !important;
   }
 
+  .card-action {
+    padding: 16px 24px !important;
+  }
+
   .project-link {
     display: inline-block;
     background-color: #C1848F;
