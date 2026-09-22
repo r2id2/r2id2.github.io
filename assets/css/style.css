@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #dbafcc repeat;
+  background: #F7ECEF repeat;
   position: relative;
 }
 
@@ -696,7 +696,7 @@ small {
   /* Activity 3 - Soft Pink Theme */
 
   .teal {
-    background-color: #dbafcc !important;
+    background-color: #F7ECEF !important;
   }
 
   .teal-text {
@@ -710,4 +710,12 @@ small {
   /* Pink accent when hovering over links */
   .hoverline:hover {
     border-bottom-color: #B76E79 !important;
+  }
+
+  #intro h2, #intro h5 {
+      color: #333333 !important;
+  }
+
+  #intro .typing {
+      color: #9E6570 !important;
   }
