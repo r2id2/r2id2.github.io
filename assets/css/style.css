@@ -688,47 +688,26 @@ small {
     text-align: center;
     margin: 0 auto;
   }
+}
+
   #intro.section {
     background-position-x: 30%;
   }
-      /* Activity 3 - Light Pink Theme */
+  /* Activity 3 - Soft Pink Theme */
 
-    .teal {
-      background-color: #E8A0BF !important;
-    }
+  .teal {
+    background-color: #D8A0A6 !important;
+  }
 
-    .teal-text {
-      color: #A64D79 !important;
-    }
+  .teal-text {
+    color: #B76E79 !important;
+  }
 
-    .teal-text.text-darken-2 {
-      color: #8E3F68 !important;
-    }
+  .blue-grey {
+    background-color: #B76E79 !important;
+  }
 
-    .blue-grey {
-      background-color: #E8A0BF !important;
-    }
-
-    .brown-text {
-      color: #A64D79 !important;
-    }
-
-    /* Links */
-    a {
-      color: #A64D79;
-    }
-
-    /* Buttons */
-    .btn,
-    .btn-large,
-    .btn-floating {
-      background-color: #E8A0BF;
-    }
-
-    /* Button hover */
-    .btn:hover,
-    .btn-large:hover,
-    .btn-floating:hover {
-      background-color: #D77FA6;
-    }
-}
+  /* Pink accent when hovering over links */
+  .hoverline:hover {
+    border-bottom-color: #B76E79 !important;
+  }
