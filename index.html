@@ -392,15 +392,14 @@ DMA-based communication within a large-scale SoC design</li>
     <section id="projects" class="section scrollspy">
       <h3 class="page-title brown-text teal">Projects</h3>
 
-        <!-- Activity #5 Start:-->
-        <div class="row" id="project-container"></div>
-
+      <!-- Activity #5 Start:-->
+      <div class="row" id="project-container"></div>
         <div style="text-align: center;">
           <button id="load-more" class="btn">
             Load More
           </button>
         </div>
-
+      </div>
           <!-- Project #1
           <div class="col s12 m6 l4">
             <div class="card medium">
@@ -538,8 +537,6 @@ DMA-based communication within a large-scale SoC design</li>
             </div>
           </div> 
           -->
-        </div>
-      </div>
     </section>
 
     <!-- Fifth Section: Skills -->
@@ -775,25 +772,29 @@ DMA-based communication within a large-scale SoC design</li>
       {
         name: "Microcontroller Subsystem for Radio",
         image: "/assets/img/ic.jpg",
-        description: "A microcontroller system built for a radio transmitter/receiver."
+        description: "A microcontroller system built for a radio transmitter/receiver.",
+        link: "https://docs.google.com/presentation/d/1U-UCQcbWW-04myiy5HvKbdaJrexeT2GVG5jEgvj3ZEM/edit?slide=id.g6c52a2e8d8_0_177#slide=id.g6c52a2e8d8_0_177"
       },
 
       {
         name: "Battleship - ARM Assembly",
         image: "/assets/img/battleship.jpg",
-        description: "The game Battleship implemented in ARM Assembly Language."
+        description: "The game Battleship implemented in ARM Assembly Language.",
+        link: "https://github.com/raidafardous/Battleship-ARM-Assembly"
       },
 
       {
         name: "Rhythmaster",
         image: "/assets/img/rhythmaster.jpg",
-        description: "A tool for drummers to practice polyrhythm techniques."
+        description: "A tool for drummers to practice polyrhythm techniques.",
+        link: "https://devpost.com/software/rhythmaster"
       },
 
       {
         name: "Waste Classification CNN",
         image: "/assets/img/cnn.jpg",
-        description: "A CNN that classifies waste images into six categories."
+        description: "A CNN that classifies waste images into six categories.",
+        link: "https://drive.google.com/file/d/1v2iTzh_cYcEkmRb-6waEObVydFxEy1AD/view?usp=sharing"
       }
     ];
 
@@ -817,6 +818,9 @@ DMA-based communication within a large-scale SoC design</li>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">${project.name}<i class="mdi-navigation-more-vert right"></i></span>
                 <p>${project.description}</p>
+              </div>
+              <div class="card-action">
+                <a href="${project.link}" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-external-link"></i></a>
               </div>
             </div>
           </div>
