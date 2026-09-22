@@ -210,6 +210,10 @@
     </ul>
   </nav>
 
+<button id="dark-mode-button" class="btn">
+  Dark Mode
+</button>
+
   <!-- Main Content-->
   <main>
     <!-- First Section: Heading lines and image -->
@@ -813,7 +817,7 @@ DMA-based communication within a large-scale SoC design</li>
           <div class="col s12 m6 l4">
             <div class="card-medium">
               <div class="card-image">
-                <img alt="${project.name}" src="${project.image}" style="height: 180px; width: 100%; object-fit: cover" />
+                <img alt="${project.name}" src="${project.image}" style="height: 200px; width: 100%; object-fit: cover" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">${project.name}</i></span>
@@ -844,6 +848,19 @@ DMA-based communication within a large-scale SoC design</li>
     document
       .getElementById("load-more")
       .addEventListener("click", display);
+  </script>
+
+  <script>
+    const darkModeButton = document.getElementById("dark-mode-button");
+    darkModeButton.addEventListener("click", function() {
+      document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      darkModeButton.textContent = "Light Mode";
+    } else {
+      darkModeButton.textContent = "Dark Mode";
+    }
+    });
   </script>
 </body>
 </html>
