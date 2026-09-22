@@ -697,6 +697,10 @@ small {
   .blue-grey {
     background-color: #C1848F !important;
   }
+  .page-title {
+    background-color: #C1848F !important;
+    color: #4A3036 !important;
+  }
 
   /* Pink accent when hovering over links */
   .hoverline:hover {

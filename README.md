@@ -14,7 +14,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://r2id2.github.io" target="_blank"><img src="examples/preview.gif">
+    <a href="https://r2id2.github.io/" target="_blank"><img src="examples/preview.gif">
   </a>
   </kbd>
 </p>
